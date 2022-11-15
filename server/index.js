@@ -14,7 +14,7 @@ const io = new Server(server, {
   }
 });
 
-const port = 3001;
+const port = process.env.PORT||3001;
 const room = 'staging';
 
 db.data ||= { members: [] };
