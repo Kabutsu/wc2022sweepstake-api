@@ -5,7 +5,7 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '39922c3a-52f0-4db4-81c5-35a25051b804'
+  azureSubscription: '3835e42a-5ae2-46a5-9845-faf30877a76f'
   
   # Web app name
   webAppName: 'wc2022sweepstake-node'
